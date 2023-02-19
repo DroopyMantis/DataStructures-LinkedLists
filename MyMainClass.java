@@ -24,7 +24,7 @@ public class MyMainClass {
         listC.printList();
         listC.insertAfter(1, "Y"); // inserts Y after A
         listC.printList();
-        System.out.println(listC.indexOf("Y")); // returns the index of Y
+        System.out.println(listD.indexOf("A")); // returns the index of A
         listC.removeNodeAt(2); // Removes node at index 2
         listC.printList();
     }
